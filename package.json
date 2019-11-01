@@ -1,0 +1,49 @@
+{
+    "name": "react-redux-typescript",
+    "version": "1.0.0",
+    "description": "A test to get this thing working",
+    "main": "index.js",
+    "scripts": {
+        "bundle": "webpack",
+        "test": "echo \"Error no test specified \" --open --hot",
+        "start": "webpack-dev-server --mode development --open chrome --hot",
+        "build": "webpack-dev-server --mode production",
+        "lint": "eslint .",
+        "check-types": "tsc"
+    },
+    "dependencies": {
+        "react": "^16.11.0",
+        "react-dom": "^16.11.0",
+        "react-redux": "^7.1.1",
+        "redux": "^4.0.4"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.6.4",
+        "@babel/plugin-proposal-class-properties": "^7.5.5",
+        "@babel/plugin-proposal-object-rest-spread": "^7.6.2",
+        "@babel/preset-env": "^7.6.3",
+        "@babel/preset-react": "^7.6.3",
+        "@babel/preset-typescript": "^7.6.0",
+        "@types/react": "^16.9.11",
+        "@types/react-dom": "^16.9.3",
+        "@types/react-redux": "^7.1.5",
+        "@typescript-eslint/eslint-plugin": "^2.6.0",
+        "@typescript-eslint/parser": "^2.6.0",
+        "babel-loader": "^8.0.6",
+        "css-loader": "^3.2.0",
+        "eslint": "^6.6.0",
+        "eslint-config-airbnb": "^18.0.1",
+        "eslint-plugin-import": "^2.18.2",
+        "eslint-plugin-jsx-a11y": "^6.2.3",
+        "eslint-plugin-react": "^7.16.0",
+        "eslint-plugin-react-hooks": "^1.7.0",
+        "html-webpack-plugin": "^3.2.0",
+        "style-loader": "^1.0.0",
+        "tslint": "^5.20.0",
+        "tslint-immutable": "^6.0.1",
+        "typescript": "^3.6.4",
+        "webpack": "^4.41.2",
+        "webpack-cli": "^3.3.10",
+        "webpack-dev-server": "^3.9.0"
+    }
+}
